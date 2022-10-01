@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sum numbers</title>
+    <style>
+        body{
+            font: normal 18pt arial;
+        }
+        input {
+            font: normal 18pt Arial;
+            margin: center;
+            width: 100px;
+        }
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Sum numbers</h1>
-    <input type="number" name="txtn1" id="txt1"> +
-    <input type="number" name="txt2" id="txt2">
-    <input type="button" value="Somar" onclick="somar()">
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick= "somar () " >
     <div id="res">Result</div>
     <script>
         function somar() {
@@ -20,7 +33,7 @@
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
             var s = n1 + n2 
-            res.innerHTML = s
+            res.innerHTML = `The sum between ${n1} e ${n2} is ${s}` 
         }
     </script>
 </body>
