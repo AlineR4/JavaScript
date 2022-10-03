@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Challenge</title>
+    <style>
+        h1 {
+            padding-bottom: 30px;
+        }
+        div {
+            background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.335), transparent);
+            font: bold 1em arial;
+            display: inline;            padding: 40px;
+            border: 1px solid rgba(0, 0, 0, 0.311);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <div id="knowing" onclick="clicar()" >Start the Challenge</div>
+    
+    <script>
+        function clicar() {
+            var name = window.document.getElementById('knowing')
+            window.prompt('Whats your name?')
+            var age = window.document.getElementById('knowing')
+            window.prompt (`Hello, ${name} Whats your age?)
+        }
+    </script>
+</body>
+</html

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <style>
+        div {
+            background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.335), transparent);
+            font: bold 1em arial;
+            display: inline;            padding: 40px;
+            border: 1px solid rgba(0, 0, 0, 0.311);
+        }
+        h1 {
+            font:normal bolder  2em arial;
+            padding-bottom:  30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Massages Challenge</h1>
+    <div id="button1">Button 1</div>
+    <div id="button2" onclick="clicar2()">Button 2</div>
+    <div id="button3" onclick="clicar3()" >Button 3</div>
+    
+    <script>
+        button1.addEventListener('click', clicar)
+        function clicar(){
+            var button1 = window.document.getElementById('button1')
+            window.alert('you clicked on 1º button!')
+        }
+        function clicar2(){
+            var button2 = window.document.getElementById('button2')
+            window.alert('you clicked on 2º button!')
+        }
+        function clicar3(){
+            var button2 = window.document.getElementById('button3')
+            window.alert('you clicked on 3º button!')
+        }
+    </script>
+</body>
+</html>
