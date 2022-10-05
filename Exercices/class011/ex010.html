@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United States Government</title>
+</head>
+<body>
+    <H1>Fine System</H1>
+    Car Speed: <input type="number" name="txtvel" id="txtvel"> Mph
+    <input type="button" value="Verify" onclick="calculate()" >
+    <div id="res"></div>
+    <script>
+        
+        function calculate(){
+            var txtv = window.document.getElementById('txtvel')
+            var res = window.document.querySelector('div#res')
+            var vel = Number (txtv.value)
+            res.innerHTML = `Your current speed is <strong>${vel}Mph </strong>`
+        
+            if (vel > 60) {
+            
+                res.innerHTML += '<p>Your were <strong>FINED</strong> by speed excess</p>'
+            }
+            res.innerHTML += '<p> Drive safely always</p>'
+        }
+    </script>
+    
+</body>
+</html>
