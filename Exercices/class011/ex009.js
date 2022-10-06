@@ -1,7 +1,8 @@
-var país = 'EUA'
-if (país== 'Brasil') {
-    console.log('Brazilian!')
+var país = 'Brasil'
+console.log(`Vivendo em ${país}`)
+if (país != 'Brasil') {
+    console.log('You are exchange!!')
 }
     else {
-    console.log('Exchange!')
+    console.log('You are Brazilian!')
 }
