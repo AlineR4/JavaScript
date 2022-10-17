@@ -19,6 +19,11 @@ width: 500px;
 margin: auto;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
 }
+div{
+    font: italic bolder 2em 'work-sans';
+    text-align: center;
+    padding: 5px;
+}
 
 img {
     border-radius: 50%;
