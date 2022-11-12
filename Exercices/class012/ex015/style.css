@@ -3,7 +3,7 @@ body {
     font: normal 15pt arial;
 }
 header {
-    color: white;
+    color: rgb(74, 17, 17);
     text-align: center;
 }
 section{
@@ -15,7 +15,7 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.379);
 }
 footer {
-    color: white;
+    color: rgb(60, 18, 18);
     text-align: center;
     font-style: italic;
 }
